@@ -1,0 +1,76 @@
+title: LuaMine
+href: index.yaml
+navigation:
+  logo:
+    url: "../en"
+    urlTitle: 'Back to main page'
+  header:
+    leftItems:
+      - text: 'GitHub'
+        type: 'link'
+        url: 'https://github.com/LuaMine/'
+    rightItems:
+      - type: controls
+items:
+  - name: Overview
+    href: index.yaml
+    items:
+      - name: About
+        href: about.md
+      - name: Changelog
+        href: changelog.md
+
+  - name: Event Callbacks
+    items:
+      - name: main
+        href: EventCallbacks/main.md
+      - name: onBlockBreak
+        href: EventCallbacks/onBlockBreak.md
+      - name: onChat
+        href: EventCallbacks/onChat.md
+      - name: onPlayerHit
+        href: EventCallbacks/onPlayerHit.md
+      - name: onPlayerInteract
+        href: EventCallbacks/onPlayerInteract.md
+      - name: onPlayerJoin
+        href: EventCallbacks/onPlayerJoin.md
+
+  - name: Minecraft
+    items:
+      - name: Chat Functions
+        href: Minecraft/ChatFunctions/index.yaml
+        items:
+          - name: getName
+            href: Minecraft/ChatFunctions/getName.md
+          - name: kick
+            href: Minecraft/ChatFunctions/kick.md
+          - name: sendMessage
+            href: Minecraft/ChatFunctions/sendMessage.md
+
+      - name: General Functions
+        href: Minecraft/GeneralFunctions/index.yaml
+        items:
+          - name: mc.log(message)
+            href: Minecraft/GeneralFunctions/log.md
+          - name: mc.broadcast(message)
+            href: Minecraft/GeneralFunctions/broadcast.md
+          - name: mc.color(text)
+            href: Minecraft/GeneralFunctions/color.md
+          - name: mc.getVersion()
+            href: Minecraft/GeneralFunctions/getVersion.md
+          - name: mc.execute(command)
+            href: Minecraft/GeneralFunctions/execute.md
+
+      - name: Scheduler Functions
+        href: Minecraft/SchedulerFunctions/index.yaml
+        items:
+          - name: wait
+            href: Minecraft/SchedulerFunctions/wait.md
+
+      - name: Visual Functions
+        href: Minecraft/VisualFunctions/index.yaml
+        items:
+          - name: sound
+            href: Minecraft/VisualFunctions/sound.md
+          - name: title
+            href: Minecraft/VisualFunctions/title.md

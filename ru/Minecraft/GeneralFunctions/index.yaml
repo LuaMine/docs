@@ -1,0 +1,22 @@
+title: Общие функции
+meta:
+  title: Общие функции
+  noIndex: true
+links:
+- title: broadcast
+  description: Отправляет сообщение всем онлайн-игрокам.
+  href: broadcast.md
+- title: color
+  description: Преобразует коды `&` в цветовые коды Minecraft.
+  href: color.md
+- title: execute
+  description: Выполняет консольную команду от имени сервера.
+  href: execute.md
+- title: getVersion
+  description: Возвращает строку версии сервера Minecraft.
+  href: getVersion.md
+- title: log
+  description: Записывает сообщение в консоль сервера.
+  href: log.md
+   
+  

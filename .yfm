@@ -1,0 +1,29 @@
+allowHtml: true
+langs: ['en','ru']
+
+vcs: true
+mtimes: true
+
+
+llms:
+  enabled: true
+
+search:
+  provider: local
+
+extensions:
+  - name: mdit-plugins
+    plugins:
+    - '@diplodoc/transform/lib/plugins/checkbox'
+  - github-vcs
+
+resources:
+  style:
+    - _assets/style/custom.css
+    - "style-src":
+        - "fonts.googleapis.com"
+
+docs-viewer:
+  project-name: luamine
+  langs: ['ru','en']
+

@@ -1,0 +1,17 @@
+title: Функции чата
+meta:
+  title: Функции чата
+  noIndex: true
+links:
+- title: getName
+  description: Возвращает имя игрока.
+  href: getName.md
+- title: kick
+  description: Выгоняет игрока с сервера.
+  href: kick.md
+- title: sendMessage
+  description: Отправляет сообщение конкретному игроку.
+  href: sendMessage.md
+
+   
+  

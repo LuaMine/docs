@@ -1,0 +1,7 @@
+.g-root {
+    --g-text-header-font-family: 'Manrope', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    --g-font-family-sans: 'Inter', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    --g-font-family-monospace: 'Martian Mono', 'Monaco', 'Consolas', 'Ubuntu Mono',
+        'Liberation Mono', 'DejaVu Sans Mono', 'Courier New', 'Courier', monospace;
+    --g-text-accent-font-weight: 700;
+}

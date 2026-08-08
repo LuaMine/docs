@@ -1,0 +1,12 @@
+title: Визуальные функции
+meta:
+  title: Визуальные функции
+  noIndex: true
+links:
+- title: sound
+  description: Проигрывает звуковой эффект игроку.
+  href: sound.md
+- title: title
+  description: Отображает заголовок и сабтитр игроку.
+  href: title.md
+   

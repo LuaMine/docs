@@ -1,0 +1,9 @@
+title: Функции планировщика
+meta:
+  title: Функции планировщика
+  noIndex: true
+links:
+- title: wait
+  description: Выполняет callback-функцию с задержкой в тиках сервера.
+  href: wait.md
+  

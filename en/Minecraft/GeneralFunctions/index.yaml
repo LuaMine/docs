@@ -1,0 +1,22 @@
+title: GeneralFunctions
+meta:
+  title: GeneralFunctions
+  noIndex: true
+links:
+- title: broadcast
+  description: Broadcasts a message to all online players.
+  href: broadcast.md
+- title: color
+  description: Converts `&` color codes into Minecraft color codes.
+  href: color.md
+- title: execute
+  description: Executes a console command as the server operator.
+  href: execute.md
+- title: gerVersion
+  description: Returns the Minecraft server version string.
+  href: getVersion.md
+- title: log
+  description: Logs a message to the server console.
+  href: log.md
+   
+  

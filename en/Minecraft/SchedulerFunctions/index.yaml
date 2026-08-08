@@ -1,0 +1,9 @@
+title: SchedulerFunctions
+meta:
+  title: SchedulerFunctions
+  noIndex: true
+links:
+- title: wait
+  description: Executes a callback function after a delay in server ticks.
+  href: wait.md
+  

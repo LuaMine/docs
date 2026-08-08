@@ -1,0 +1,57 @@
+blocks:
+  - type: header-block
+    title: LuaMine
+    description: |
+      A lightweight Lua scripting engine
+    textWidth: 'm'
+    verticalOffset: 'm'
+    resetPaddings: true
+    background:
+      light:
+        image:
+          disableCompress: true
+        color: '#C6FE4D'
+        fullWidth: false
+      dark:
+        image:
+          disableCompress: true
+        color: '#C6FE4D'
+        fullWidth: false
+
+  - type: card-layout-block
+    colSizes:
+      all: 12
+      xl: 4
+      sm: 6
+      md: 4
+    indent: 's'
+    children:
+      - type: basic-card
+        title: 
+          text: Event Callbacks
+          textSize: s
+        text: |
+          [main()](EventCallbacks/main.md)
+
+          [onBlockBreak](EventCallbacks/onBlockBreak.md)
+          
+          [onChat](EventCallbacks/onChat.md)
+
+          [onPlayerHit](EventCallbacks/onPlayerHit.md)
+
+          [onPlayerInteract](EventCallbacks/onPlayerInteract.md)
+          
+          [onPlayerJoin](EventCallbacks/onPlayerJoin.md)
+
+      - type: basic-card
+        title: 
+          text: Minecraft functions
+          textSize: s
+        text: |
+          [Chat Functions](Minecraft/ChatFunctions/index.yaml)
+
+          [General Functions](Minecraft/GeneralFunctions/index.yaml)
+
+          [Scheduler Functions](Minecraft/SchedulerFunctions/index.yaml)
+
+          [Visual Functions](Minecraft/VisualFunctions/index.yaml)

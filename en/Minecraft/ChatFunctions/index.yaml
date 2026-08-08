@@ -1,0 +1,17 @@
+title: ChatFunctions
+meta:
+  title: ChatFunctions
+  noIndex: true
+links:
+- title: getName
+  description: Returns the player's name.
+  href: getName.md
+- title: kick
+  description: Kicks a player from the server.
+  href: kick.md
+- title: sendMessage
+  description: Sends a message to a specific player.
+  href: sendMessage.md
+
+   
+  

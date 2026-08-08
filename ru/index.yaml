@@ -1,0 +1,57 @@
+blocks:
+  - type: header-block
+    title: LuaMine
+    description: |
+      Легкий движок скриптинга Lua
+    textWidth: 'm'
+    verticalOffset: 'm'
+    resetPaddings: true
+    background:
+      light:
+        image:
+          disableCompress: true
+        color: '#C6FE4D'
+        fullWidth: false
+      dark:
+        image:
+          disableCompress: true
+        color: '#C6FE4D'
+        fullWidth: false
+
+  - type: card-layout-block
+    colSizes:
+      all: 12
+      xl: 4
+      sm: 6
+      md: 4
+    indent: 's'
+    children:
+      - type: basic-card
+        title: 
+          text: Обработчики событий
+          textSize: s
+        text: |
+          [main()](EventCallbacks/main.md)
+
+          [onBlockBreak](EventCallbacks/onBlockBreak.md)
+          
+          [onChat](EventCallbacks/onChat.md)
+
+          [onPlayerHit](EventCallbacks/onPlayerHit.md)
+
+          [onPlayerInteract](EventCallbacks/onPlayerInteract.md)
+          
+          [onPlayerJoin](EventCallbacks/onPlayerJoin.md)
+
+      - type: basic-card
+        title: 
+          text: Функции Minecraft
+          textSize: s
+        text: |
+          [Функции чата](Minecraft/ChatFunctions/index.yaml)
+
+          [Общие функции](Minecraft/GeneralFunctions/index.yaml)
+
+          [Функции планировщика](Minecraft/SchedulerFunctions/index.yaml)
+
+          [Визуальные функции](Minecraft/VisualFunctions/index.yaml)

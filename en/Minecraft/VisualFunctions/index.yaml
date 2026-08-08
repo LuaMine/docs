@@ -1,0 +1,12 @@
+title: SchedulerFunctions
+meta:
+  title: SchedulerFunctions
+  noIndex: true
+links:
+- title: sound
+  description: Plays a sound effect for a player.
+  href: sound.md
+- title: title
+  description: Displays a title and subtitle to a player.
+  href: title.md
+   
