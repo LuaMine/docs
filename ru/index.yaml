@@ -2,7 +2,7 @@ blocks:
   - type: header-block
     title: LuaMine
     description: |
-      Легкий движок скриптинга Lua
+      Легковесный движок скриптинга Lua
     textWidth: 'm'
     verticalOffset: 'm'
     resetPaddings: true
