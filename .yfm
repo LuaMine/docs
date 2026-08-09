@@ -27,3 +27,9 @@ docs-viewer:
   project-name: luamine
   langs: ['ru','en']
 
+analytics:
+  gtm:
+    id: "GTM-NX9SXTL7"
+    mode: "base"
+  metrika:
+    - id: 111433858
