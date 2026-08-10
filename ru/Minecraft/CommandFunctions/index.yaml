@@ -1,0 +1,8 @@
+title: Функции команд
+meta:
+  title: Функции команд
+  noIndex: true
+links:
+- title: registerCommand
+  description: Регистрирует пользовательскую команду, которая при вызове выполняет Lua-функцию.
+  href: registerCommand.md

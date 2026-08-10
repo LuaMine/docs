@@ -9,3 +9,5 @@ Sends a message to a specific player.
 ```lua
 mc.sendMessage(player, "&aHello!")
 ```
+
+> **Note:** Also available as `player:sendMessage(message)`.

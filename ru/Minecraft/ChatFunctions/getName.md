@@ -11,3 +11,5 @@
 local name = mc.getName(player)
 mc.log(name)
 ```
+
+> **Примечание:** также доступно как `player:getName()`. Смотрите раздел [Функции игрока](../PlayerFunctions/index.yaml) — там больше методов, вызываемых прямо на объекте игрока.

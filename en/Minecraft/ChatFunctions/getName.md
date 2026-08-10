@@ -11,3 +11,5 @@ Returns the player's name.
 local name = mc.getName(player)
 mc.log(name)
 ```
+
+> **Note:** Also available as `player:getName()`. See [Player Functions](../PlayerFunctions/index.yaml) for more methods callable directly on a player object.

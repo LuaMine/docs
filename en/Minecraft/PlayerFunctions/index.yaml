@@ -1,0 +1,35 @@
+title: PlayerFunctions
+meta:
+  title: PlayerFunctions
+  noIndex: true
+links:
+- title: getPosition
+  description: Returns the player's current coordinates.
+  href: getPosition.md
+- title: getYaw
+  description: Returns the horizontal direction the player is facing.
+  href: getYaw.md
+- title: getPitch
+  description: Returns how far up or down the player is looking.
+  href: getPitch.md
+- title: teleport
+  description: Teleports the player to a position in their current world.
+  href: teleport.md
+- title: setMaxHealth
+  description: Sets the player's maximum health.
+  href: setMaxHealth.md
+- title: setHealth
+  description: Sets the player's current health.
+  href: setHealth.md
+- title: damage
+  description: Damages the player by the given amount.
+  href: damage.md
+- title: heal
+  description: Heals the player by the given amount.
+  href: heal.md
+- title: addEffect
+  description: Applies a potion effect to the player.
+  href: addEffect.md
+- title: removeEffect
+  description: Removes a potion effect from the player.
+  href: removeEffect.md

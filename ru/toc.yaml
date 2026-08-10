@@ -47,6 +47,36 @@ items:
           - name: sendMessage
             href: Minecraft/ChatFunctions/sendMessage.md
 
+      - name: Функции игрока
+        href: Minecraft/PlayerFunctions/index.yaml
+        items:
+          - name: player:getPosition()
+            href: Minecraft/PlayerFunctions/getPosition.md
+          - name: player:getYaw()
+            href: Minecraft/PlayerFunctions/getYaw.md
+          - name: player:getPitch()
+            href: Minecraft/PlayerFunctions/getPitch.md
+          - name: player:teleport(x, y, z)
+            href: Minecraft/PlayerFunctions/teleport.md
+          - name: player:setMaxHealth(value)
+            href: Minecraft/PlayerFunctions/setMaxHealth.md
+          - name: player:setHealth(value)
+            href: Minecraft/PlayerFunctions/setHealth.md
+          - name: player:damage(amount)
+            href: Minecraft/PlayerFunctions/damage.md
+          - name: player:heal(amount)
+            href: Minecraft/PlayerFunctions/heal.md
+          - name: player:addEffect(name, duration, amplifier)
+            href: Minecraft/PlayerFunctions/addEffect.md
+          - name: player:removeEffect(name)
+            href: Minecraft/PlayerFunctions/removeEffect.md
+
+      - name: Функции команд
+        href: Minecraft/CommandFunctions/index.yaml
+        items:
+          - name: mc.registerCommand(name, function, description, usage)
+            href: Minecraft/CommandFunctions/registerCommand.md
+
       - name: Общие функции
         href: Minecraft/GeneralFunctions/index.yaml
         items:

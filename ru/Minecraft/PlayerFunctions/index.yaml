@@ -1,0 +1,35 @@
+title: Функции игрока
+meta:
+  title: Функции игрока
+  noIndex: true
+links:
+- title: getPosition
+  description: Возвращает текущие координаты игрока.
+  href: getPosition.md
+- title: getYaw
+  description: Возвращает направление взгляда игрока по горизонтали.
+  href: getYaw.md
+- title: getPitch
+  description: Возвращает наклон взгляда игрока вверх/вниз.
+  href: getPitch.md
+- title: teleport
+  description: Телепортирует игрока в указанную позицию в его текущем мире.
+  href: teleport.md
+- title: setMaxHealth
+  description: Устанавливает максимальное здоровье игрока.
+  href: setMaxHealth.md
+- title: setHealth
+  description: Устанавливает текущее здоровье игрока.
+  href: setHealth.md
+- title: damage
+  description: Наносит игроку урон указанной величины.
+  href: damage.md
+- title: heal
+  description: Восстанавливает игроку здоровье на указанную величину.
+  href: heal.md
+- title: addEffect
+  description: Накладывает на игрока эффект зелья.
+  href: addEffect.md
+- title: removeEffect
+  description: Снимает с игрока эффект зелья.
+  href: removeEffect.md

@@ -1,0 +1,8 @@
+title: CommandFunctions
+meta:
+  title: CommandFunctions
+  noIndex: true
+links:
+- title: registerCommand
+  description: Registers a custom command that runs a Lua function when invoked.
+  href: registerCommand.md

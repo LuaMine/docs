@@ -9,3 +9,5 @@ Kicks a player from the server.
 ```lua
 mc.kick(player, "&cYou were kicked!")
 ```
+
+> **Note:** Also available as `player:kick(reason)`.

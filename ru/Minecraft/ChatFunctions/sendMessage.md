@@ -9,3 +9,5 @@
 ```lua
 mc.sendMessage(player, "&aПривет!")
 ```
+
+> **Примечание:** также доступно как `player:sendMessage(message)`.
