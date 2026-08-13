@@ -29,3 +29,35 @@ end, "Greets someone", "/greet <name>")
 > methods described in [Player Functions](../PlayerFunctions/index.yaml). Use the
 > `Minecraft.xxx(player, ...)` free functions (e.g. `mc.sendMessage(sender, ...)`,
 > `mc.kick(sender, ...)`) which work with both.
+
+---
+
+## Tab completion: `mc.command(name)` builder
+
+`registerCommand` doesn't support tab completion (adding a fifth positional parameter
+felt like the wrong direction). If you need it, use the fluent builder instead - it
+ends up registering the exact same kind of command, just with named setters:
+
+```lua
+mc.command("heal")
+    :execute(function(sender, args)
+        mc.sendMessage(sender, "&aHealed!")
+    end)
+    :description("Heals yourself")
+    :usage("/heal [amount]")
+    :tabComplete(function(sender, args)
+        return {"10", "20", "full"}
+    end)
+    :register()
+```
+
+| Method                    | Required | Description                                                      |
+|---------------------------|----------|--------------------------------------------------------------------|
+| `:execute(function)`      | Yes      | Same signature as `registerCommand`'s function                    |
+| `:description(string)`    | No       | Shown in `/help`                                                   |
+| `:usage(string)`          | No       | Usage message, defaults to `/name`                                 |
+| `:tabComplete(function)`  | No       | Called as `function(sender, args)`; return a table of string suggestions |
+| `:register()`             | -        | Finalizes registration - must be called last                       |
+
+Nothing happens until `:register()` is called. Calling it again later (e.g. on
+`/minelua reload`) updates the same command in place, same as `registerCommand`.

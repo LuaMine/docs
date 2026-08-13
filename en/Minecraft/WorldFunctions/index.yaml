@@ -1,0 +1,14 @@
+title: WorldFunctions
+meta:
+  title: WorldFunctions
+  noIndex: true
+links:
+- title: setBlock
+  description: Sets the block type at the given coordinates.
+  href: setBlock.md
+- title: getBlock
+  description: Gets the block type at the given coordinates.
+  href: getBlock.md
+- title: spawnEntity
+  description: Spawns an entity at the given coordinates.
+  href: spawnEntity.md

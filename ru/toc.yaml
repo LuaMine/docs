@@ -26,14 +26,38 @@ items:
         href: EventCallbacks/main.md
       - name: onBlockBreak
         href: EventCallbacks/onBlockBreak.md
+      - name: onBlockPlace
+        href: EventCallbacks/onBlockPlace.md
       - name: onChat
         href: EventCallbacks/onChat.md
+      - name: onDrop
+        href: EventCallbacks/onDrop.md
+      - name: onEntityDeath
+        href: EventCallbacks/onEntityDeath.md
+      - name: onInventoryClick
+        href: EventCallbacks/onInventoryClick.md
+      - name: onItemMend
+        href: EventCallbacks/onItemMend.md
+      - name: onPickup
+        href: EventCallbacks/onPickup.md
+      - name: onPlayerDeath
+        href: EventCallbacks/onPlayerDeath.md
       - name: onPlayerHit
         href: EventCallbacks/onPlayerHit.md
       - name: onPlayerInteract
         href: EventCallbacks/onPlayerInteract.md
       - name: onPlayerJoin
         href: EventCallbacks/onPlayerJoin.md
+      - name: onPlayerQuit
+        href: EventCallbacks/onPlayerQuit.md
+      - name: onPlayerRespawn
+        href: EventCallbacks/onPlayerRespawn.md
+      - name: onSneakToggle
+        href: EventCallbacks/onSneakToggle.md
+      - name: onWeatherChange
+        href: EventCallbacks/onWeatherChange.md
+      - name: onWorldChange
+        href: EventCallbacks/onWorldChange.md
 
   - name: Minecraft
     items:
@@ -70,6 +94,10 @@ items:
             href: Minecraft/PlayerFunctions/addEffect.md
           - name: player:removeEffect(name)
             href: Minecraft/PlayerFunctions/removeEffect.md
+          - name: player:giveItem(item, amount)
+            href: Minecraft/PlayerFunctions/giveItem.md
+          - name: player:hasItem(item, amount)
+            href: Minecraft/PlayerFunctions/hasItem.md
 
       - name: Функции команд
         href: Minecraft/CommandFunctions/index.yaml
@@ -90,6 +118,8 @@ items:
             href: Minecraft/GeneralFunctions/getVersion.md
           - name: mc.execute(command)
             href: Minecraft/GeneralFunctions/execute.md
+          - name: mc.hasPermission(sender, node)
+            href: Minecraft/GeneralFunctions/hasPermission.md
 
       - name: Функции планировщика
         href: Minecraft/SchedulerFunctions/index.yaml
@@ -104,3 +134,43 @@ items:
             href: Minecraft/VisualFunctions/sound.md
           - name: title
             href: Minecraft/VisualFunctions/title.md
+
+      - name: Функции мира
+        href: Minecraft/WorldFunctions/index.yaml
+        items:
+          - name: mc.setBlock(x, y, z, type, world)
+            href: Minecraft/WorldFunctions/setBlock.md
+          - name: mc.getBlock(x, y, z, world)
+            href: Minecraft/WorldFunctions/getBlock.md
+          - name: mc.spawnEntity(type, x, y, z, world)
+            href: Minecraft/WorldFunctions/spawnEntity.md
+
+  - name: JSON
+    items:
+      - name: json.encode(value)
+        href: Json/encode.md
+      - name: json.decode(text)
+        href: Json/decode.md
+      - name: json.save(name, value)
+        href: Json/save.md
+      - name: json.load(name)
+        href: Json/load.md
+
+  - name: Addon API
+    items:
+      - name: Обзор
+        href: AddonAPI/index.md
+      - name: get()
+        href: AddonAPI/get.md
+      - name: registerFunction(name, function)
+        href: AddonAPI/registerFunction.md
+      - name: registerModule(name, module)
+        href: AddonAPI/registerModule.md
+      - name: registerCommand(name, function, description, usage)
+        href: AddonAPI/registerCommand.md
+      - name: getGlobals()
+        href: AddonAPI/getGlobals.md
+      - name: getCustomFunctions() / getCustomModules()
+        href: AddonAPI/getCustomFunctions.md
+      - name: reloadScripts()
+        href: AddonAPI/reloadScripts.md
